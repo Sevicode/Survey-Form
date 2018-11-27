@@ -25,6 +25,7 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 		<form id="survey-form">
+
 			<label for="name" id="name-label">Name:</label> 
 			<input type="text" name="name" placeholder="Your Name" id="name">
 			<br><br>
@@ -34,6 +35,7 @@
 			<label for="number" id="number-label">Number:</label>
 			<input type="number" name="quantity" placeholder="Number" min="0" max="10" id="number">
 			<br><br>
+
 			<label for="age">Age:</label>
 			<select>
 				<option value="select" selected>Select</option>
@@ -42,8 +44,21 @@
 				<option value="35-45">35-45</option>
 				<option value="45-55">45-55</option>
 				<option value=">55">>55</option>
-			</select>
-			
+			</select><br><br>
+
+
+			<label for="gender">Gender:</label><br>
+			<input type="radio" name="gender" value="female"> Female <br>
+			<input type="radio" name="gender" value="male"> Male <br>
+			<input type="radio" name="gender" value="other"> Other <br><br>
+
+			<label for="transport"> How do you commute to work?</label><br>
+			<input type="checkbox" name="vehicle1" value="Bicycle"> Bicycle <br>
+			<input type="checkbox" name="vehicle2" value="Car"> Your Car <br>
+			<input type="checkbox" name="vehicle3" value="Public Transport"> Public Transport <br>
+			<input type="checkbox" name="vehicle0" value="Walk"> Walking to Work <br>
+
+
 		</form>
 	</p>
 
