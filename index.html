@@ -25,14 +25,24 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 		<form id="survey-form">
-			Name:
-			<input type="text" name="name" placeholder="Name" id="name">
-			<br>
-			Email:
-			<input type="email" name="email" placeholder="Email" id="email">
-			<br>
-			Number:
+			<label for="name" id="name-label">Name:</label> 
+			<input type="text" name="name" placeholder="Your Name" id="name">
+			<br><br>
+			<label for="email" id="email-label">Email:</label>
+			<input type="email" name="email" placeholder="Write Your Email Here" id="email">
+			<br><br>
+			<label for="number" id="number-label">Number:</label>
 			<input type="number" name="quantity" placeholder="Number" min="0" max="10" id="number">
+			<br><br>
+			<label for="age">Age:</label>
+			<select>
+				<option value="select" selected>Select</option>
+				<option value="18-25">18-25</option>
+				<option value="25-35">25-35</option>
+				<option value="35-45">35-45</option>
+				<option value="45-55">45-55</option>
+				<option value=">55">>55</option>
+			</select>
 			
 		</form>
 	</p>
