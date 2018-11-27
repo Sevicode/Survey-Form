@@ -22,30 +22,52 @@
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<div class="container">
 
 		<form id="survey-form">
+			<div class="row">
+				<div class="col-25">
 
 			<label for="name" id="name-label">Name:</label> 
+		</div>
+		<div class="col-75">
 			<input type="text" name="name" placeholder="Your Name" id="name">
-			<br><br>
+		</div>
+			
+			<div class="col-25">
 			<label for="email" id="email-label">Email:</label>
+		</div>
+		<div class="col-75">
 			<input type="email" name="email" placeholder="Write Your Email Here" id="email">
-			<br><br>
+		</div>
+			<div class="col-25">
+			<label for="tel">Phone Number (optional) </label>
+		</div>
+		<div class="col-75">
+			<input type="tel" name="usrtel">
+		</div>
+		<div class="col-25">
 			<label for="number" id="number-label">Number:</label>
+		</div>
+		<div class="col-75"></div>
 			<input type="number" name="quantity" placeholder="Number" min="0" max="10" id="number">
-			<br><br>
-
+		</div>
+		<div class="col-25">
 			<label for="age">Age:</label>
-			<select>
+		</div>
+		<div class="col-75">
+
+			<select id="age">
 				<option value="select" selected>Select</option>
 				<option value="18-25">18-25</option>
 				<option value="25-35">25-35</option>
 				<option value="35-45">35-45</option>
 				<option value="45-55">45-55</option>
 				<option value=">55">>55</option>
-			</select><br><br>
-
+			</select>
+		</div>
 
 			<label for="gender">Gender:</label><br>
 			<input type="radio" name="gender" value="female"> Female <br>
@@ -56,11 +78,25 @@
 			<input type="checkbox" name="vehicle1" value="Bicycle"> Bicycle <br>
 			<input type="checkbox" name="vehicle2" value="Car"> Your Car <br>
 			<input type="checkbox" name="vehicle3" value="Public Transport"> Public Transport <br>
-			<input type="checkbox" name="vehicle0" value="Walk"> Walking to Work <br>
+			<input type="checkbox" name="vehicle0" value="Walk"> Walking to Work <br><br>
+
+			<label for="public transport">What type of public tranport do you use to commute to work?</label><br>
+			<input type="checkbox" name="public1" value="bus"> Bus <br>
+			<input type="checkbox" name="public2" value="Taxi"> Taxi <br>
+			<input type="checkbox" name="public3" value="Train"> Train <br>
+			<input type="checkbox" name="public4" value="none"> I do not use public transport <br><br>
+
+		
+
+			<label for="message">Comments</label><br>
+			<textarea name="message" rows="10" cols="30"></textarea><br><br>
+
+			<input type="submit" name="submit" id="submit">
 
 
 		</form>
-	</p>
+	</div>
+	
 
 </body>
 </html>
