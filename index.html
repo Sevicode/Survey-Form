@@ -8,7 +8,7 @@
 
 </head>
 <body>
-	<h1 id="title"> Survey Form</h1>
+	<h1 id="title">How Do You Commute to Work? A Survey</h1>
 	<p id="description">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -24,41 +24,28 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		<div class="container">
+		
 
 		<form id="survey-form">
-			<div class="row">
-				<div class="col-25">
 
-			<label for="name" id="name-label">Name:</label> 
-		</div>
-		<div class="col-75">
-			<input type="text" name="name" placeholder="Your Name" id="name">
-		</div>
+			<fieldset>
+				<legend> Personal Information</legend>
+
+			<label for="fname" id="fname-label">First Name:</label> 
+			<input type="text" name="name" placeholder="Your First Name Here" id="fname"><br>
+
+			<label for="lname" id="lname-label">Last Name:</label> 
+			<input type="text" name="lname" placeholder="Your Last Name" id="lname"><br>
 			
-			<div class="col-25">
 			<label for="email" id="email-label">Email:</label>
-		</div>
-		<div class="col-75">
-			<input type="email" name="email" placeholder="Write Your Email Here" id="email">
-		</div>
-			<div class="col-25">
-			<label for="tel">Phone Number (optional) </label>
-		</div>
-		<div class="col-75">
-			<input type="tel" name="usrtel">
-		</div>
-		<div class="col-25">
-			<label for="number" id="number-label">Number:</label>
-		</div>
-		<div class="col-75"></div>
-			<input type="number" name="quantity" placeholder="Number" min="0" max="10" id="number">
-		</div>
-		<div class="col-25">
-			<label for="age">Age:</label>
-		</div>
-		<div class="col-75">
-
+			<input type="email" name="email" placeholder="Write Your Email Here" id="email"><br>
+		
+			
+			<label for="tel" id="tel-label">Phone Number (optional) </label>
+			<input type="tel" name="usrtel" placeholder="Your Phone Number"><br>
+		
+		
+			<label for="age" id="age-label">Age:</label><br>
 			<select id="age">
 				<option value="select" selected>Select</option>
 				<option value="18-25">18-25</option>
@@ -66,13 +53,20 @@
 				<option value="35-45">35-45</option>
 				<option value="45-55">45-55</option>
 				<option value=">55">>55</option>
-			</select>
-		</div>
+			</select><br><br>
 
 			<label for="gender">Gender:</label><br>
 			<input type="radio" name="gender" value="female"> Female <br>
 			<input type="radio" name="gender" value="male"> Male <br>
-			<input type="radio" name="gender" value="other"> Other <br><br>
+			<input type="radio" name="gender" value="other"> Other <br>
+
+		</fieldset><br>
+
+
+			<label for="number" id="number-label">Number of family members using public transport to commute to work:</label><br>
+			<input type="number" name="quantity" placeholder="Choose From the List" min="0" max="10" id="number"><br><br>
+
+
 
 			<label for="transport"> How do you commute to work?</label><br>
 			<input type="checkbox" name="vehicle1" value="Bicycle"> Bicycle <br>
@@ -92,7 +86,6 @@
 			<textarea name="message" rows="10" cols="30"></textarea><br><br>
 
 			<input type="submit" name="submit" id="submit">
-
 
 		</form>
 	</div>
