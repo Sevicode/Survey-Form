@@ -1,33 +1,31 @@
 
 body{
 	margin: 50px 100px;
-	padding: 50px 100px;
-		
+	padding: 50px 100px;	
 }
 h1{
 	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 	padding: 20px;
-	border: ridge;
+	border: inset;
 	border-style: inset;
-	outline-style: ridge;
-	
+	border-width: 5px;
+	border-radius: 25px;
 }
 
 p{
 	text-align: justify;
 	font-family:"Time New Roman", Times, serif;
-	font-size: 24px;
-	
-
+	font-size: 22px;
 }
 
 fieldset{
 	border-style: inset;
 	width: 100%;
-	font-size: 20px;
-	
+	font-size: 16px;
+	border-radius: 5px;	
 }
+
 
 /* Designing input fields of the survey form*/
 
@@ -40,6 +38,7 @@ input[type=text]{
 	border:solid #b4b4b4;
 	border-radius: 5px;
 	box-sizing: border-box;
+	font-size: 16px;
 }
 
 input[ type=email]{
@@ -50,6 +49,8 @@ input[ type=email]{
 	border:solid #b4b4b4;
 	border-radius: 5px;	
 	box-sizing: border-box;
+	font-size: 16px;
+
 }
 
 input[type=tel]{
@@ -60,6 +61,8 @@ input[type=tel]{
 	border:solid #b4b4b4;
 	border-radius: 5px;
 	box-sizing: border-box;
+	font-size: 16px;
+
 }
 
 input[type=number], select{
@@ -70,11 +73,43 @@ input[type=number], select{
 	border:solid #b4b4b4;
 	border-radius: 5px;
 	box-sizing: border-box;
+	font-size: 16px;
+
+}
+
+input[type=submit]{
+	background-color: white;
+	font-size: 14px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	border-color: #4CAF50;
+	border-style: solid;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
 }
 
 input[type=submit]:hover {
-	background-color: #3cb371;
+	background-color: #4CAF50;
+}
+
+input[type=radio]{
+	font-size: 16px
+}
+
+/*Styling the labels*/
+.labelClass{
+	font-size: 20px;
+}
+
+/*Styling Textarea*/
+.textArea{
+	width: 100%;
+	padding: 10px 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border:solid #b4b4b4;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 20px;
 
 }
 
-/*designing the labels*/
