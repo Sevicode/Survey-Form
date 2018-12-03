@@ -78,7 +78,7 @@ input[type=number], select{
 }
 
 input[type=submit]{
-	background-color: white;
+	background-color: #009933;
 	font-size: 14px;
 	padding: 10px 24px;
 	border-radius: 8px;
