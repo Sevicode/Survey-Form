@@ -1,8 +1,16 @@
 
+@media only screen and (max-width: 600px){
+	body{
+		font-size: 14px;
+	}
+}
+
+
 body{
 	margin: 50px 100px;
 	padding: 50px 100px;	
 }
+
 h1{
 	text-align: center;
 	font-size: 30px;
@@ -21,7 +29,7 @@ p{
 
 fieldset{
 	border-style: inset;
-	width: 100%;
+	/*width: 100%;*/
 	font-size: 16px;
 	border-radius: 5px;	
 }
@@ -31,8 +39,8 @@ fieldset{
 
 
 input[type=text]{
-	width: 100%;
-	padding: 10px 12px;
+	/*width: 100%;*/
+	/*padding: 10px 12px;*/
 	margin: 8px 0;
 	display: inline-block;
 	border:solid #b4b4b4;
@@ -42,8 +50,8 @@ input[type=text]{
 }
 
 input[ type=email]{
-	width: 100%;
-	padding: 10px 12px;
+	/*width: 100%;*/
+	/*padding: 10px 12px;*/
 	margin: 8px 0;
 	display: inline-block;
 	border:solid #b4b4b4;
@@ -54,8 +62,8 @@ input[ type=email]{
 }
 
 input[type=tel]{
-	width: 100%;
-	padding: 10px 12px;
+	/*width: 100%;*/
+	/*padding: 10px 12px;*/
 	margin: 8px 0;
 	display: inline-block;
 	border:solid #b4b4b4;
@@ -66,8 +74,8 @@ input[type=tel]{
 }
 
 input[type=number], select{
-	width: 50%;
-	padding: 10px 12px;
+	/*width: 50%;*/
+	/*padding: 10px 12px;*/
 	margin: 8px 0;
 	display: inline-block;
 	border:solid #b4b4b4;
@@ -75,16 +83,17 @@ input[type=number], select{
 	box-sizing: border-box;
 	font-size: 16px;
 
+
 }
 
 input[type=submit]{
 	background-color: #009933;
 	font-size: 14px;
-	padding: 10px 24px;
-	border-radius: 8px;
+	/*padding: 10px 24px;*/
 	border-color: #4CAF50;
 	border-style: solid;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 4px;	
 }
 
 input[type=submit]:hover {
@@ -102,8 +111,8 @@ input[type=radio]{
 
 /*Styling Textarea*/
 .textArea{
-	width: 100%;
-	padding: 10px 12px;
+	/*width: 100%;*/
+	/*padding: 10px 12px;*/
 	margin: 8px 0;
 	display: inline-block;
 	border:solid #b4b4b4;
