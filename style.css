@@ -21,7 +21,11 @@ input[type=text]{
 
 }
 
-
+body{
+	background-color: #f0f5f5;
+	border-style: solid;
+	font-family: "Arial" Sans-serif;
+}
 
 
 h1{
@@ -36,7 +40,6 @@ h1{
 
 p{
 	text-align: justify;
-	font-family:"Time New Roman", Times, serif;
 	font-size: 22px;
 }
 
